@@ -14,6 +14,12 @@ h1 {
   font-size: 24px;
   color: #f9faf8
 }
+
+.top-head-row {
+  display: flex;
+  flex-direction: row
+}
+
 .section1 {
   display: flex;
   background-color: #1F2937
@@ -69,6 +75,7 @@ h1 {
   color: #1f2937;
   font-weight: 900;
 }
+
 .img-box {
   display: flex;
   flex-direction: row;
