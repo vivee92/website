@@ -16,7 +16,9 @@ img {
   display: flex;
   background-color: #1F2937;
   margin: -10px;
-  justify-content: space-between
+  justify-content: space-between;
+  height: 500px
+
 }
 
 .navbar {
@@ -35,8 +37,16 @@ img {
 
 .section1-main-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-left: 5rem
+}
+.section-1-main-header-paragraph-button-box {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  padding-top: 100px;
+  padding-right: 100px
 }
 
 .section-1-main-content-header {
@@ -55,10 +65,16 @@ img {
   width: 80px
 }
 
+.section-1-img-box {
+  display: flex;
+  flex: 1
+}
 
 .main-img {
   display: flex;
-  width: 500px
+  width: 400px;
+  padding-top: 20px;
+  border-radius: 1px
 }
 
 /* second box displaying four art pieces */
