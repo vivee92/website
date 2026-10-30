@@ -10,23 +10,36 @@ img {
   
 }
 
-h1 {
-  font-size: 24px;
-  color: #f9faf8
-}
-
-.top-head-row {
-  display: flex;
-  flex-direction: row
-}
-
 .section1 {
   display: flex;
-  background-color: #1F2937
+  background-color: #1F2937;
+  margin: -10px;
+  justify-content: space-between
+}
+
+.navbar {
+  font-size: 24px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  width: 1200px
 }
 
 .links {
-    justify-content: flex-end;
+  display: flex;
+  gap: 1.5rem
+}
+
+.section1-main-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem
+}
+
+.main-img {
+  display: flex;
+  width: 500px
 }
 
 .section2 {
@@ -67,7 +80,8 @@ h1 {
 }
 
 .button1 {
-  background-color: #3882f6
+  background-color: #3882f6;
+  width: 80px
 }
 
 .head3 {
