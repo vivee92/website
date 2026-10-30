@@ -81,14 +81,22 @@ img {
 
 .section2 {
   display: flex;
-  flex-grow: 1 1 auto;
-  margin: 40px;
+  padding: 20px;
+  flex-direction: column
+}
+
+.section-2-head-box {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1
 }
 
 .section-2-head {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  display: flex;
+  justify-content: center
 }
 
 .img-box {
@@ -99,7 +107,25 @@ img {
   font-size: 24px
 }
 
+.art-1-box {
+  display: flex;
+  flex-direction: column
+}
 
+.art-2-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.art-3-box {
+  display: flex;
+  flex-direction: column
+}
+
+.art-4-box {
+  display: flex;
+  flex-direction: column
+}
 /* third box with quote */
 
 .section3 {
