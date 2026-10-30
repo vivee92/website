@@ -39,18 +39,18 @@ img {
   padding-left: 5rem
 }
 
-.head2 {
+.section-1-main-content-header {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
 }
 
-.para1 {
+.section-1-paragraph {
   font-size: 18px;
   color: #e5e7eb
 }
 
-.button1 {
+.section-1-button {
   background-color: #3882f6;
   width: 80px
 }
@@ -69,7 +69,7 @@ img {
   margin: 40px;
 }
 
-.head3 {
+.section-2-head {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
@@ -78,7 +78,9 @@ img {
 .img-box {
   display: flex;
   flex-direction: row;
-  padding: 30px
+  padding: 30px;
+  font-weight: 100;
+  font-size: 24px
 }
 
 
