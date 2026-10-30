@@ -10,6 +10,8 @@ img {
   
 }
 
+/* top box with header and text with main picture */
+
 .section1 {
   display: flex;
   background-color: #1F2937;
@@ -37,16 +39,50 @@ img {
   padding-left: 5rem
 }
 
+.head2 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.para1 {
+  font-size: 18px;
+  color: #e5e7eb
+}
+
+.button1 {
+  background-color: #3882f6;
+  width: 80px
+}
+
+
 .main-img {
   display: flex;
   width: 500px
 }
+
+/* second box displaying four art pieces */
 
 .section2 {
   display: flex;
   flex-grow: 1 1 auto;
   margin: 40px;
 }
+
+.head3 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.img-box {
+  display: flex;
+  flex-direction: row;
+  padding: 30px
+}
+
+
+/* third box with quote */
 
 .section3 {
   background-color: #e3e087;
@@ -68,30 +104,3 @@ img {
   padding-right: 40px
 }
 
-.head2 {
-  font-size: 48px;
-  color: #f9faf8;
-  font-weight: 900;
-}
-
-.para1 {
-  font-size: 18px;
-  color: #e5e7eb
-}
-
-.button1 {
-  background-color: #3882f6;
-  width: 80px
-}
-
-.head3 {
-  font-size: 36px;
-  color: #1f2937;
-  font-weight: 900;
-}
-
-.img-box {
-  display: flex;
-  flex-direction: row;
-  padding: 30px
-}
