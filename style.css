@@ -175,24 +175,34 @@ img {
 
 .section3 {
   background-color: rgb(190, 124, 219);
-  font-size: 36px;
-  color: #1f2937;
-  font-weight: 300;
-  font-style: italic;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-left: -20px;
   margin-right: -20px;
-  margin-top: 40px;
-  height: 400px
+  margin-top: 90px;
+  height: 400px;
+}
+
+.section-3-paragraph-1 {
+  display: flex;
+  padding-left: 200px;
+  padding-top: 30px;
+  font-size: 80px;
+  font-family: 'Optima', sans-serif;
+  font-weight: 600;
+  font-style: italic
+}
+
+.signature {
+  display: flex;
+  font-size: 50px;
+  padding-top: 200px;
+  padding-left: 30px;
+  font-family: 'Brush Script MT', sans-serif
 }
 
 .quote-text {
-  margin: 0;
-  padding: 20px;
-  padding-left: 50px;
-  padding-right: 40px
+  display: flex;
+  flex-direction: row
 }
 
 /* fourth box with email me option */
