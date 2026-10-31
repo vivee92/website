@@ -78,11 +78,11 @@ img {
   background-color: #30bee5;
   width: 80px;
   height: 30px;
-  border: 2px solid black;
+  border: 2px solid #1493af;
   border-radius: 3px;
   cursor: pointer;
 
-  box-shadow: 0 5px 0 #077499;
+  box-shadow: 0 5px 0 #1493af;
 
   transition: all 0.1s ease;
   position: relative
@@ -90,8 +90,8 @@ img {
 
 .section-1-button:active {
   transform: translateY(4px);
-  box-shadow: 0 1px 1 #077499;
-  background-color: #077499
+  box-shadow: 0 1px 1 #1493af;
+  background-color: #1493af
 }
 
 .section-1-img-box {
@@ -199,7 +199,7 @@ img {
 
 .section-4-all-content-box {
   display: flex;
-  background-color: #007bff;
+  background-color: #30bee5;
   margin: 80px;
   flex: 1;
   height: 100px;
@@ -227,14 +227,14 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #007bff;
+  background-color: #30bee5;
   height: 30px;
-  border: 1px solid white;
+  border: 1px solid #1493af;
   border-radius: 3px;
   
   cursor: pointer;
 
-  box-shadow: 0 5px 0 #0056b3;
+  box-shadow: 0 5px 0 #1493af;
 
   transition: all 0.1s ease;
   position: relative
@@ -242,6 +242,6 @@ img {
 
 .section-4-button:active {
   transform: translateY(4px);
-  box-shadow: 0 1px 1 #0056b3;
-  background-color: #0056b3
+  box-shadow: 0 1px 1 #1493af;
+  background-color: #1493af
 }
