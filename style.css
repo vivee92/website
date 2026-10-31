@@ -6,8 +6,6 @@ img {
   border-radius: 20px;
   border: solid 2px;
   border-color: #1f2937;
-  width: 150px;
-  
 }
 
 /* top box with header and text with main picture */
@@ -96,7 +94,8 @@ img {
   color: #1f2937;
   font-weight: 900;
   display: flex;
-  justify-content: center
+  justify-content: center;
+  margin: 20px
 }
 
 .img-box {
@@ -104,28 +103,29 @@ img {
   flex-direction: row;
   padding: 30px;
   font-weight: 100;
-  font-size: 24px
+  font-size: 24px;
+  justify-content: space-between
+
 }
 
-.art-1-box {
-  display: flex;
-  flex-direction: column
-}
-
-.art-2-box {
+.art-box {
   display: flex;
   flex-direction: column;
+  width: min-content;
 }
 
-.art-3-box {
+.imgs {
+  height: auto;
   display: flex;
-  flex-direction: column
+  width: 200px;
+  height: 400px
 }
 
-.art-4-box {
+.img-text {
+  max-width: 120%;
   display: flex;
-  flex-direction: column
 }
+
 /* third box with quote */
 
 .section3 {
