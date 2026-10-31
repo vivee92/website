@@ -151,7 +151,16 @@ img {
 .imgs {
   display: flex;
   width: 250px;
-  height: 290px
+  height: 290px;
+
+}
+
+.imgs-even {
+    border-color: #f2b4c0
+} 
+
+.imgs-odd {
+  border-color: rgb(190, 124, 219)
 }
 
 .img-text {
